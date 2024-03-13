@@ -149,7 +149,7 @@ address {
     background-color: transparent;
     line-height: 26px;
     border-style: solid;
-    border-color: #FFFFFF; 
+    border-color: #FFFFFF;
     border-width: 1px;
     padding: 11px 31px;
     text-transform: uppercase;
@@ -282,9 +282,9 @@ address {
 .about__content {
     display: flex;
     flex-flow: column;
-    font-size: 20px;  
+    font-size: 20px;
     letter-spacing: 0.09px;
-    word-spacing: -0.32px;  
+    word-spacing: -0.32px;
     line-height: 24px;
     padding-right: 24px;
     gap: 24px;
