@@ -250,7 +250,7 @@ address {
     display: grid;
     grid-template-columns: 334px 1fr;
     grid-template-rows: 248px auto;
-    gap: 0 50px ; 
+    gap: 0 50px; 
 }
 
 .about__logo-circle {
@@ -264,6 +264,7 @@ address {
 .about__column-logo {
     grid-row: 1 / span 2;
 }
+
 .about__logo {
     width: 148px;
     margin: 64px 46px;
