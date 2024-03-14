@@ -75,7 +75,7 @@ address {
 
 .cover {
     margin: 0 0 179px 0;
-    background-image: url(/images/cover.jpg);
+    background-image: url(../images/cover.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -199,15 +199,15 @@ address {
 }
 
 .first__lot-image {
-    background-image: url(/images/card-lot-01.jpg);
+    background-image: url(../images/card-lot-01.jpg);
 }
 
 .second__lot-image {
-    background-image: url(/images/card-lot-02.jpg);
+    background-image: url(../images/card-lot-02.jpg);
 }
 
 .third__lot-image {
-    background-image: url(/images/card-lot-03.jpg);
+    background-image: url(../images/card-lot-03.jpg);
 }
 
 .lots__header {
