@@ -86,13 +86,14 @@ address {
     width: 100%;
     height: 100%;
     position: absolute;
+    inset: 0;
 }
 
 .cover__title {
     font-size: 100px;
     color: #FFFFFF;
     text-transform: uppercase;
-    padding: 165px 50px 147px 50px;
+    padding: 165px 50px 130px 50px;
     white-space: nowrap;
     letter-spacing: 0.03em;
     position: relative;
@@ -101,20 +102,19 @@ address {
 
 .aligned-text {
     display: block;
-    margin-right: auto;
     line-height: 1.23em;
 }
 
 .aligned-text_center {
     display: block;
-    margin: 0 285px;
+    text-align: center;
     letter-spacing: 0.3em;
     line-height: 1.34em;
 }
 
 .aligned-text_right {
     display: block;
-    margin: 0 0 0 583px;
+    text-align: right;
     letter-spacing: 0.3em;
     line-height: 1.05em;
 }
@@ -124,13 +124,12 @@ address {
 }
 
 .no-letter-spacing {
-    letter-spacing: 0.3em;
+    letter-spacing: 0em;
 }
 
 .cover__description {
     display: flex;
     padding: 0 52px 51px 78px;
-    margin-top: -17px;
     justify-content: space-between;
     align-items: center;
     text-transform: uppercase;
@@ -169,10 +168,18 @@ address {
     flex-wrap: wrap;
     margin-bottom: 30px;
 }
-.card-link {
+
+.lots__card-list-item{
+    width: 334px;
+    height: 563px;
+    flex-grow: 1;
+}
+
+.card-link,
+.lots__content-card {
     display: block;
     text-decoration: none;
-    width: 100%;
+    height: 100%;
 }
 
 .lots__heading {
@@ -185,8 +192,6 @@ address {
 
 .lots__content-card {
     display: flex;
-    width: 334px;
-    height: 563px;
     position: relative;
 }
 
@@ -196,6 +201,9 @@ address {
     background-position: center;
     position: relative;
     z-index: -1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .first__lot-image {
@@ -227,10 +235,9 @@ address {
     font-size: 20px;
     color: #FFFFFF;
     margin: 0 40px 48px 40px;
-    bottom: 0;
     line-height: 24.2px;
     word-spacing: -0.3px;
-    position: absolute;
+    position: relative;
     z-index: 1;
 }
 
